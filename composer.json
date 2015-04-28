@@ -1,0 +1,29 @@
+{
+  "name": "xuma/Bfxm",
+  "description": "BFXM Json Builder",
+  "keywords": ["bulutfon", "bulutfonxm", "bfxm"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hakan ERSU",
+      "email": "hakanersu@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-0": {
+      "Xuma\\Bfxm": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
