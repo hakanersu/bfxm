@@ -1,7 +1,7 @@
 <?php
 namespace Xuma\Bfxm;
 
-class Bfxm
+class Builder
 {
     public $json = array();
 
