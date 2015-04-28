@@ -28,7 +28,7 @@ By default build() will return below code if you want to set json header and out
         {
             "action": "play",
             "args": {
-                "url": "http://test.com/test.mp3"
+                "url": "http://bfxmdemo.bulutfon.com/demosesler/demo-hosgeldiniz.mp3"
             }
         },
         {
