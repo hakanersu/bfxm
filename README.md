@@ -56,7 +56,7 @@ $bfxm->play('http://test.com/test.mp3');
 {
     "action": "play",
     "args": {
-        "url": "http://google.com/test.mp3"
+        "url": "http://test.com/test.mp3"
     }
 }
 
