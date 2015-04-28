@@ -13,9 +13,9 @@ $bfxm = new Builder;
 
 $bfxm->play('http://bfxmdemo.bulutfon.com/demosesler/demo-hosgeldiniz.mp3')
 	->dial(10)
-	->build(true);
+	->build();
 ```
-If you set build(true) it will output below json code, if you set build(false) it will return.
+By default build() will return below code if you want to set json header and output below code just use build(true)
 
 ```json
 {
