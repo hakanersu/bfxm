@@ -45,44 +45,16 @@ By default build() will return below code if you want to set json header and out
 
 ###Methods
 
-####play($url)
+ * play($url)
 
-Play sound from given url.
+ * gather
 
-```php
-$bfxm->play('http://test.com/test.mp3');
-```
-```json
-{
-    "action": "play",
-    "args": {
-        "url": "http://test.com/test.mp3"
-    }
-}
+ * hangup
 
-```
-####gather
+ * reject
 
-Gather input from user.
+ * set_caller
 
-```php
-$bfxm->gather([
-	"action" => "gather",
-	"args" => [
-        "min_digits"  => 1,
-        "max_digits"  => 1,
-        "max_attempts"  => 3,
-        "ask"  => "http://bfxmdemo.bulutfon.com/demosesler/numara-tuslayiniz.mp3",
-        "play_on_error"  => "http://bfxmdemo.bulutfon.com/demosesler/hatali-giris.mp3",
-        "variable_name"  => "returnvar",
-]);
-```
-####hangup
+ * say
 
-####reject
-
-####set_caller
-
-####say
-
-####dial
+ * dial
