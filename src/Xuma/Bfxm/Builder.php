@@ -66,6 +66,19 @@ class Builder
 
         return $this;
     }
+    
+    /**
+     * Continue the next process
+     *
+     * @return $this
+     */
+    public function continueseq()
+    {
+        $this->add(array(
+            "action"=>"continue"
+        ));
+        return $this;
+    }
 
     /**
      * Set caller name for call.
