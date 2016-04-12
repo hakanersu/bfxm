@@ -135,7 +135,7 @@ class Builder
         if($build){
             header('Content-Type: application/json');
             echo json_encode($this->json);
-            return true;
+            exit;
         }
 
         return json_encode($this->json);
