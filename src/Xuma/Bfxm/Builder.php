@@ -135,10 +135,20 @@ class Builder
         if($build){
             header('Content-Type: application/json');
             echo json_encode($this->json);
-            exit;
+            return true;
         }
 
         return json_encode($this->json);
+    }
+
+    public function return_data($data)
+    {
+        $this->add(array(
+            "action"=>"return_data",
+            "args"=>$data
+        ));
+
+        return $this;
     }
 
     private function add($array)
