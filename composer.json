@@ -10,15 +10,11 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=5.4.0",
+    "xuma/bfxm": "^1.0.1"
   },
   "require-dev": {
 
-  },
-  "autoload": {
-    "psr-0": {
-      "Xuma\\Bfxm": "src/"
-    }
   },
   "extra": {
     "branch-alias": {
