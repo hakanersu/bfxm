@@ -112,12 +112,13 @@ class Builder
      * @param $num
      * @return $this
      */
-    public function dial($num)
+    public function dial($num,$display_caller=false)
     {
         $this->add(array(
             "action"=>"dial",
             "args"=>array(
-                "destination"=>$num
+                "destination"=>$num,
+                "hide_cli_on_diversion"=>$display_caller
             )
         ));
 
